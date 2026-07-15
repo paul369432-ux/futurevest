@@ -1,181 +1,52 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>FutureVest</title>
-
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
-body{
-    font-family:Arial,sans-serif;
-    background:#f4f7fb;
-    color:#333;
-}
-
-header{
-    background:#0b3d91;
-    color:white;
-    padding:20px;
-    text-align:center;
-}
-
-nav{
-    margin-top:15px;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin:0 15px;
-    font-weight:bold;
-}
-
-.hero{
-    padding:100px 20px;
-    text-align:center;
-}
-
-.hero h1{
-    font-size:48px;
-    margin-bottom:20px;
-}
-
-.hero p{
-    font-size:20px;
-    margin-bottom:30px;
-    color:#666;
-}
-
-button{
-    background:#0b3d91;
-    color:white;
-    border:none;
-    padding:15px 35px;
-    border-radius:6px;
-    cursor:pointer;
-    font-size:16px;
-}
-
-button:hover{
-    background:#072d6d;
-}
-
-section{
-    padding:60px 20px;
-}
-
-section h2{
-    text-align:center;
-    margin-bottom:40px;
-}
-
-.cards{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:25px;
-}
-
-.card{
-    background:white;
-    width:300px;
-    padding:25px;
-    border-radius:10px;
-    box-shadow:0 4px 12px rgba(0,0,0,.1);
-    transition:.3s;
-}
-
-.card:hover{
-    transform:translateY(-8px);
-}
-
-.card h3{
-    margin-bottom:15px;
-}
-
-footer{
-    background:#111;
-    color:white;
-    text-align:center;
-    padding:25px;
-    margin-top:40px;
-}
-
-@media(max-width:768px){
-.hero h1{
-font-size:34px;
-}
-
-nav a{
-display:block;
-margin:10px 0;
-}
-}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#f4f7fb;color:#333}
+header{background:#0b3d91;color:#fff;padding:20px;text-align:center}
+nav a{color:#fff;text-decoration:none;margin:0 12px}
+.hero{padding:90px 20px;text-align:center;background:linear-gradient(135deg,#0b3d91,#2563eb);color:#fff}
+.hero h1{font-size:48px;margin-bottom:16px}
+.hero p{max-width:700px;margin:0 auto 24px}
+button{padding:14px 28px;border:none;border-radius:6px;background:#fff;color:#0b3d91;font-weight:bold;cursor:pointer}
+section{padding:60px 20px}
+.cards{display:flex;flex-wrap:wrap;gap:20px;justify-content:center}
+.card{background:#fff;width:300px;padding:20px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,.1)}
+.stats{background:#0b3d91;color:#fff;text-align:center}
+footer{background:#111;color:#fff;text-align:center;padding:20px}
+@media(max-width:768px){.hero h1{font-size:34px}nav a{display:block;margin:8px 0}}
 </style>
-
 </head>
-
 <body>
-
 <header>
-
 <h1>FutureVest</h1>
-
-<nav>
-<a href="#">Home</a>
-<a href="#">About</a>
-<a href="#">Services</a>
-<a href="#">Contact</a>
-</nav>
-
+<nav><a href="#">Home</a><a href="#">About</a><a href="#">Plans</a><a href="#">Contact</a></nav>
 </header>
-
-<div class="hero">
-
-<h1>Build Your Financial Future</h1>
-
-<p>Professional investment solutions designed to help you achieve your financial goals.</p>
-
-<button>Get Started</button>
-
-</div>
-
-<section>
-
-<h2>Our Services</h2>
-
-<div class="cards">
-
-<div class="card">
-<h3>Portfolio Tracking</h3>
-<p>Monitor all your investments from one secure dashboard.</p>
-</div>
-
-<div class="card">
-<h3>Market Insights</h3>
-<p>Receive educational resources and up-to-date market information.</p>
-</div>
-
-<div class="card">
-<h3>Financial Planning</h3>
-<p>Create long-term financial plans with easy-to-use tools.</p>
-</div>
-
-</div>
-
+<section class="hero">
+<h1>Invest Smarter. Grow Faster.</h1>
+<p>A modern demonstration investment website for learning web development.</p>
+<button onclick="alert('Welcome to FutureVest!')">Get Started</button>
 </section>
-
-<footer>
-
-© 2026 FutureVest. Demo website template.
-
-</footer>
-
-</body>
-</html>
+<section>
+<h2 style="text-align:center;margin-bottom:30px;">Our Services</h2>
+<div class="cards">
+<div class="card"><h3>Portfolio Tracking</h3><p>Monitor your investments from one dashboard.</p></div>
+<div class="card"><h3>Market Insights</h3><p>Read educational market analysis and updates.</p></div>
+<div class="card"><h3>Financial Planning</h3><p>Plan long-term financial goals with confidence.</p></div>
+</div>
+</section>
+<section class="stats">
+<h2>Platform Highlights</h2><br>
+<div class="cards">
+<div class="card"><h2>25K+</h2><p>Users</p></div>
+<div class="card"><h2>$18M+</h2><p>Assets Tracked</p></div>
+<div class="card"><h2>99.9%</h2><p>Uptime</p></div>
+</div>
+</section>
+<footer>© 2026 FutureVest. Demo website template.</footer>
+</body></html>
+    
