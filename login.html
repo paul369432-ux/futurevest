@@ -116,7 +116,8 @@ function login(){
 const email = document.getElementById("email").value;
 const password = document.getElementById("password").value;
 const savedEmail = localStorage.getItem("userEmail");
-const savedPassword = localStorage.getItem("userPassword");  
+const savedPassword = localStorage.getItem("userPassword");
+if(email === savedEmail && password === savedPassword){  
 }
 </script>
 </body>
